@@ -1,7 +1,8 @@
 <?php
 //název proměnné
 /*
-$name = "Jakub Vávrů";
+$firstname = "Jakub";
+$lastname = "Vávrů";
 $gender = "Muž";
 $school = "Základní škola Zásmuky";
 $email = "jakub.vavru@student.ossp.cz";
@@ -10,7 +11,8 @@ $hobby = "počítače, příroda, tůry, kreslení";
 $birth = "6.1.2004"
 */
 
-$name = "Michal Plaček";
+$firstname = "Michal";
+$lastname = "Plaček";
 $gender = "Muž";
 $school = "Základní škola Kolín";
 $email = "michal.placek@student.ossp.cz";
@@ -29,7 +31,7 @@ $birth = "11.11.2003"
     <title>Document</title>
 </head>
 <body>
-<h1><?= $name; ?></h1>
+<h1><?= $firstname; ?> <?= $lastname; ?></h1>
 
 <li>Pohlaví</li>
 <?= $gender; ?>
