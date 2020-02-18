@@ -6,6 +6,7 @@ $school = "Základní škola Zásmuky";
 $email = "jakub.vavru@student.ossp.cz";
 $phone = "+420 776 542 345";
 $hobby = "počítače, příroda, tůry, kreslení";
+$birth = "6.1.2004"
 ?>
 
 <!DOCTYPE html>
@@ -33,6 +34,9 @@ $hobby = "počítače, příroda, tůry, kreslení";
 
 <li>Koníčky</li>
 <?php echo $hobby; ?>
+
+<li>Narození</li>
+<?php echo $birth; ?>
 
 </body>
 </html>
