@@ -32,24 +32,27 @@ $birth = "11.11.2003"
 </head>
 <body>
 <h1><?= $firstname; ?> <?= $lastname; ?></h1>
+<ul>
 
-<li>Pohlaví</li>
-<?= $gender; ?>
+<li>Pohlaví: <?= $gender; ?></li>
 
-<li>Škola</li>
-<?= $school; ?>
 
-<li>email</li>
-<?= $email; ?>
+<li>Škola: <?= $school; ?></li>
 
-<li>Tel. Číslo</li>
-<?= $phone; ?>
 
-<li>Koníčky</li>
-<?= $hobby; ?>
+<li>email: <?= $email; ?></li>
 
-<li>Narození</li>
-<?= $birth; ?>
+
+<li>Tel. Číslo: <?= $phone; ?></li>
+
+
+<li>Koníčky: <?= $hobby; ?></li>
+
+
+<li>Narození: <?= $birth; ?></li>
+
+
+</ul>
 
 </body>
 </html>
