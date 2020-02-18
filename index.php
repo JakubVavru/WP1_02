@@ -5,7 +5,7 @@ $gender = "Muž";
 $school = "Základní škola Zásmuky";
 $email = "jakub.vavru@student.ossp.cz";
 $phone = "+420 776 542 345";
-$hobby = "počítače, příroda, tůry, kreslení"
+$hobby = "počítače, příroda, tůry, kreslení";
 ?>
 
 <!DOCTYPE html>
