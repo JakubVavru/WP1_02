@@ -9,6 +9,7 @@ $phone = "+420 776 542 345";
 $hobby = "počítače, příroda, tůry, kreslení";
 $birth = "6.1.2004"
 */
+
 $name = "Michal Plaček";
 $gender = "Muž";
 $school = "Základní škola Kolín";
@@ -28,25 +29,25 @@ $birth = "11.11.2003"
     <title>Document</title>
 </head>
 <body>
-<h1><?php echo $name; ?></h1>
+<h1><?= $name; ?></h1>
 
 <li>Pohlaví</li>
-<?php echo $gender; ?>
+<?= $gender; ?>
 
 <li>Škola</li>
-<?php echo $school; ?>
+<?= $school; ?>
 
 <li>email</li>
-<?php echo $email; ?>
+<?= $email; ?>
 
 <li>Tel. Číslo</li>
-<?php echo $phone; ?>
+<?= $phone; ?>
 
 <li>Koníčky</li>
-<?php echo $hobby; ?>
+<?= $hobby; ?>
 
 <li>Narození</li>
-<?php echo $birth; ?>
+<?= $birth; ?>
 
 </body>
 </html>
