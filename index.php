@@ -1,5 +1,6 @@
 <?php
 //název proměnné
+/*
 $name = "Jakub Vávrů";
 $gender = "Muž";
 $school = "Základní škola Zásmuky";
@@ -7,6 +8,15 @@ $email = "jakub.vavru@student.ossp.cz";
 $phone = "+420 776 542 345";
 $hobby = "počítače, příroda, tůry, kreslení";
 $birth = "6.1.2004"
+*/
+$name = "Michal Plaček";
+$gender = "Muž";
+$school = "Základní škola Kolín";
+$email = "michal.placek@student.ossp.cz";
+$phone = "+420 792 307 704";
+$hobby = "počítače, motocross,";
+$birth = "11.11.2003"
+
 ?>
 
 <!DOCTYPE html>
